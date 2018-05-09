@@ -26,6 +26,8 @@
           <input type="submit" name="submit" value="Submit"/>
         </form>
         <br><br>
+        <?php echo $redirect_link; ?>
+        <?php echo $_SERVER['HTTP_HOST']; ?>
         <a href="<?php echo $redirect_link; ?>">View Stream</a>
         <a href="logout.php">Logout</a>
     </body>
