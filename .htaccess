@@ -1,6 +1,7 @@
 Options +FollowSymLinks -MultiViews +Indexes
 
 RewriteEngine On
+ErrorDocument 404 "Error"
 
 RewriteRule ^login$ login.php
 RewriteRule ^logout$ logout.php
