@@ -26,8 +26,8 @@
           <input type="submit" name="submit" value="Submit"/>
         </form>
         <br><br>
-        <a href="<?php echo $_SERVER['SERVER_ADDR'].':7001'; ?>">View Stream</a>
-        <a href="./loginsystem/logout.php">Logout</a>
+        <a href="<?php echo $redirect_link; ?>">View Stream</a>
+        <a href="logout.php">Logout</a>
     </body>
 </html>
 
