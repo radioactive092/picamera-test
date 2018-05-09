@@ -28,7 +28,7 @@
         <br><br>
         <?php echo $redirect_link; ?>
         <?php echo $_SERVER['HTTP_HOST']; ?>
-        <a href="<?php echo $redirect_link; ?>">View Stream</a>
+        <a href="192.168.1.103:7001">View Stream</a>
         <a href="logout.php">Logout</a>
     </body>
 </html>
