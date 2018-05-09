@@ -3,7 +3,7 @@
 	var_dump($_SERVER['HTTP_HOST']);
 	var_dump($_SERVER['SERVER_ADDR']);
 	$redirect_link = '';
-	$redirect_link = $_SERVER['SERVER_ADDR'].':7001';
+	$redirect_link = '<a href="'.$_SERVER['SERVER_ADDR'].':7001">View Stream</a>';
 	if(isset($_SESSION['username'])) {
 
 	}
